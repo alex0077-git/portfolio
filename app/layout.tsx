@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
   display: 'swap',
 })
 
+
 export const metadata: Metadata = {
-  title: 'Ashwin Gupta — Software Engineer',
+  title: "Alex Antony | MCA Student & Software Developer",
   description:
-    'Software engineer building fast, accessible, and meaningful web experiences. Portfolio, projects, and contact.',
-  generator: 'v0.app',
-}
+    "Portfolio of Alex Antony showcasing projects, skills, and experience in software development, AI, and web technologies.",
+};
 
 export const viewport: Viewport = {
   colorScheme: 'dark light',

@@ -46,7 +46,15 @@ export type Project = {
   featured?: boolean
 }
 
-export const projects: Project[] = [
+  export const projects: Project[] = [
+  {
+    name: 'Second Brain',
+    description:
+      'Bilingual (English/Malayalam) AI-powered learning app that explains any technical topic with a real-world analogy, then uses a spaced-repetition engine and AI-generated self-test questions to help you actually retain it. Built with a FastAPI + RAG (ChromaDB) backend and a React Native (Expo) frontend.',
+    tech: ['FastAPI', 'React Native', 'Expo', 'Groq API', 'ChromaDB', 'RAG'],
+    github: 'https://github.com/alex0077-git/Second-Brain',
+    featured: true,
+  },
   {
     name: 'AI Interview Coach',
     description:
@@ -79,6 +87,7 @@ export const projects: Project[] = [
   },
   
 ]
+
 
 export type TimelineItem = {
   title: string

@@ -81,8 +81,8 @@ export type Project = {
   {
     name: 'GameHub',
     description:
-      'React Native mobile app built as a hub for mini-games, with a home screen and game catalog. Currently features "Mind Reader" — an interactive card-trick game that guesses a number the user is thinking of using a binary elimination algorithm.',
-    tech: ['React Native', 'Expo'],
+      'React Native mobile app built as a hub for original and traditional 2-player games. Features "Mind Reader" (a number-guessing game using binary elimination), "Money in the Bank" (a risk-and-reward coin game), and physics-based recreations of classic Kerala schoolyard games — "Poojyamvettu" (dots-and-boxes) and "Pen Fight," built with matter-js for realistic pen physics.',
+    tech: ['React Native', 'Expo', 'matter-js'],
     github: 'https://github.com/alex0077-git/GameHubApp',
   },
   

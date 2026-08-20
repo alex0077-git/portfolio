@@ -20,19 +20,19 @@ export const about = {
   skills: [
     {
       category: 'Languages',
-      items: ['Python', 'JavaScript', 'SQL'],
+      items: ['Python', 'JavaScript', 'SQL', 'HTML', 'CSS'],
     },
     {
       category: 'Frameworks',
-      items: ['React.js', 'React Native', 'Next.js', 'FastAPI', 'Flask', 'Django', 'Tailwind CSS'],
+      items: ['React.js', 'React Native', 'Expo', 'Next.js', 'FastAPI', 'Flask', 'Django', 'Tailwind CSS'],
     },
     {
       category: 'AI / ML',
-      items: ['LangChain', 'Groq API (LLaMA 3.3 70B)', 'YOLOv8'],
+      items: ['LangChain', 'Groq API (LLaMA 3.3 70B)', 'YOLOv8', 'RAG', 'ChromaDB'],
     },
     {
       category: 'Tools',
-      items: ['Git/GitHub', 'Docker', 'MySQL', 'REST APIs'],
+      items: ['Git/GitHub', 'Docker', 'MySQL', 'REST APIs', 'Postman', 'matter-js'],
     },
   ],
 }

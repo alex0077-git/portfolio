@@ -179,6 +179,7 @@ export default function Home() {
 
       <section className="hero-section" aria-labelledby="hero-title">
         <div className="hero-copy">
+          <p className="hero-name">Alex Antony</p>
           <p className="eyebrow">AI/ML + FULL-STACK DEVELOPER</p>
           <h1 id="hero-title">TURNING CURIOUS IDEAS INTO USEFUL SOFTWARE.</h1>
           <p className="hero-description">
